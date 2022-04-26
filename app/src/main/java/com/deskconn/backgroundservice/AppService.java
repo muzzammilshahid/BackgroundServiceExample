@@ -61,7 +61,7 @@ public class AppService extends Service {
 
                 });
 
-                request.get("http://192.168.100.116:5009/api/name");
+                request.get("http://192.168.10.16:5009/api/name");
                 System.out.println("myHandler: here!");
                 handler.postDelayed(this, delay);
             }
